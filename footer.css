@@ -1,0 +1,152 @@
+.footer-section {
+    background: linear-gradient(90deg, #67c3f3, #5a98f2);
+    padding: 20px 40px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 165px;
+  }
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1120px;
+  }
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    margin-right: 30px;
+  }
+  .footer-logo img {
+    width: 160px;
+    height: 40px;
+  }
+  .footer-nav {
+    display: flex;
+    gap: 150px;
+    margin-right: 100px;
+  }
+  .footer-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  .footer-nav a:hover {
+    color: #cce7ff;
+  }
+  .footer-dots {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+  }
+  .dots-left {
+    position: absolute;
+    bottom: 0px;
+    width: 115px;
+    height: 115px;
+  }
+  .footer-logo img {
+    width: 160px;
+    height: 40px;
+  }
+  
+  @media (min-width: 2560px) {
+    .footer-section {
+      padding: 40px 80px;
+      height: 250px;
+    }
+  
+    .footer-content {
+      width: 1600px;
+      gap: 80px;
+    }
+  
+    .footer-logo img {
+      width: 240px;
+      height: 60px;
+    }
+  
+    .footer-nav {
+      gap: 200px;
+    }
+  
+    .footer-nav a {
+      font-size: 24px;
+    }
+  
+    .footer-nav a:hover {
+      color: #d3e9ff;
+    }
+  
+    .dots-left {
+      width: 180px;
+      height: 180px;
+      bottom: 20px;
+    }
+  }
+  @media (max-width: 768px) {
+    .footer-section {
+      padding: 20px;
+      height: auto;
+    }
+  
+    .footer-content {
+      flex-direction: column;
+      gap: 20px;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .footer-logo {
+      justify-content: center;
+    }
+  
+    .footer-nav {
+      gap: 40px;
+      margin-right: 0;
+      justify-content: center;
+    }
+  
+    .footer-nav a {
+      font-size: 14px;
+    }
+    .dots-left {
+      position: absolute;
+      bottom: 0px;
+      width: 60px;
+      height: 60px;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .footer-section {
+      padding: 15px;
+    }
+  
+    .footer-logo img {
+      width: 120px;
+      height: 30px;
+    }
+  
+    .footer-nav {
+      gap: 20px;
+    }
+  
+    .footer-nav a {
+      font-size: 12px;
+    }
+  
+    .dots-left {
+      width: 80px;
+      height: 80px;
+      bottom: 10px;
+    }
+  }
+  
